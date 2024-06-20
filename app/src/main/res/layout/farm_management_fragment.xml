@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Farm Management Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Farm Management"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Track land records -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="102dp"
+                android:layout_height="102dp"
+                android:src="@drawable/soil"
+                android:layout_marginEnd="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Track land records"
+                android:textSize="26sp"
+                android:layout_marginTop="30dp"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+        <!-- Crop rotations -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="102dp"
+                android:layout_height="102dp"
+                android:src="@drawable/rotation"
+                android:layout_marginEnd="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Crop rotations"
+                android:textColor="@android:color/black"
+                android:textSize="26sp" />
+
+        </LinearLayout>
+
+        <!-- Planting schedules -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="102dp"
+                android:layout_height="102dp"
+                android:src="@drawable/planting"
+                android:layout_marginEnd="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Planting schedules"
+                android:layout_marginTop="30dp"
+                android:textSize="26sp"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+        <!-- Harvest data -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="102dp"
+                android:layout_height="102dp"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/plant" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Harvest data"
+                android:layout_marginTop="30dp"
+                android:textColor="@android:color/black"
+                android:textSize="26sp" />
+
+        </LinearLayout>
+
+        <!-- Include other elements as needed -->
+
+    </LinearLayout>
+
+</layout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "545084369755",
+    "project_id": "digitall-cc7b4",
+    "storage_bucket": "digitall-cc7b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545084369755:android:920a44dffa4d6d3200087e",
+        "android_client_info": {
+          "package_name": "com.example.digitall"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAaftN_zyusr1XZbpTPmiUcl-Tb623KAY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

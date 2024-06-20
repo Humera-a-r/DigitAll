@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_700"
+            android:elevation="0dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageBack"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="20dp"
+                    android:src="@drawable/left_arrow"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Telehealth"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"/>
+
+
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+        <LinearLayout   android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- Account Management Section -->
+            <Button
+                android:id="@+id/accountManagementButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Account Management"
+                android:layout_margin="16dp"
+                android:background="@drawable/purple_top_buttons"
+                android:onClick="handleAccountManagementClick" />
+
+            <!-- Symptom Checker Section -->
+            <Button
+                android:id="@+id/symptomCheckerButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Symptom Checker"
+                android:layout_margin="16dp"
+                android:background="@drawable/purple_top_buttons"
+                android:onClick="handleSymptomCheckerClick" />
+
+            <!-- Appointment Booking Section -->
+            <Button
+                android:id="@+id/appointmentBookingButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Appointment Booking"
+                android:layout_margin="16dp"
+                android:background="@drawable/purple_top_buttons"
+
+                android:onClick="handleAppointmentBookingClick" />
+
+            <!-- Video Consultations Section -->
+            <Button
+                android:id="@+id/videoConsultationsButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Video Consultations"
+                android:layout_margin="16dp"
+                android:background="@drawable/purple_top_buttons"
+
+                android:onClick="handleVideoConsultationsClick" />
+
+            <!-- Messaging and Chat Section -->
+            <Button
+                android:id="@+id/messagingButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Messaging and Chat"
+                android:layout_margin="16dp"
+                android:background="@drawable/purple_top_buttons"
+
+                android:onClick="handleMessagingClick" />
+
+            <!-- Prescription Management Section -->
+            <Button
+                android:id="@+id/prescriptionManagementButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prescription Management"
+                android:layout_margin="16dp"
+                android:background="@drawable/purple_top_buttons"
+
+                android:onClick="handlePrescriptionManagementClick" />
+
+            <!-- Health Tracking Section -->
+            <Button
+                android:id="@+id/healthTrackingButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Health Tracking"
+                android:layout_margin="16dp"
+                android:background="@drawable/purple_top_buttons"
+
+                android:onClick="handleHealthTrackingClick" />
+
+            <!-- Education and Resources Section -->
+            <Button
+                android:id="@+id/educationResourcesButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Education and Resources"
+                android:layout_margin="16dp"
+                android:background="@drawable/purple_top_buttons"
+
+                android:onClick="handleEducationResourcesClick" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>

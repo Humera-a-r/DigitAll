@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_700"
+            android:elevation="0dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:id="@+id/imageBack"
+                    android:layout_marginEnd="20dp"
+                    android:src="@drawable/left_arrow"/>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Water Management"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"/>
+
+
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Sensor Network Section -->
+            <Button
+                android:id="@+id/Sensorbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sensor Network"
+                android:layout_margin="16dp"
+                android:background="@drawable/purple_top_buttons"
+                android:onClick="handleSensorNetworkClick" />
+
+
+            <Button
+                android:id="@+id/RealtimeDataCollection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Real-time Data Collection"
+                android:layout_margin="16dp"
+                android:background="@drawable/purple_top_buttons"
+                android:onClick="handleRealtimedatacollectionClick" />
+
+            <!-- Appointment Booking Section -->
+            <Button
+                android:id="@+id/WeatherClimateData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Weather and climate Data Intergration"
+                android:layout_margin="16dp"
+                android:background="@drawable/purple_top_buttons"
+
+                android:onClick="handleWeatherandClimateDataIntegrationClick" />
+
+            <!-- Video Consultations Section -->
+            <Button
+                android:id="@+id/visualizationbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Visualization and Analysis"
+                android:layout_margin="16dp"
+                android:background="@drawable/purple_top_buttons"
+
+                android:onClick="handleVisualizationandanalysisClick" />
+
+            <!-- Messaging and Chat Section -->
+            <Button
+                android:id="@+id/ResourseManagement"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Resource Management and Optimization"
+                android:layout_margin="16dp"
+                android:background="@drawable/purple_top_buttons"
+
+                android:onClick="handleResourseManagementandOptClick" />
+
+            <!-- Prescription Management Section -->
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</layout>
